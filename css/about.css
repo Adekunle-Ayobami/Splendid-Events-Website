@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 150vh;
+  font-family: "Clash Grotesk";
+}
+/* NAVBAR */
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 1% 0% 1% 3%;
+  border-bottom: 1px solid grey;
+  height: 82px;
+  gap: 30%;
+  box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.19);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.nav-ul a {
+  text-decoration: none;
+}
+.nav-bar img {
+  width: 27%;
+}
+.nav-ul li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #5fbc4d;
+}
+.nav-items ul {
+  display: flex;
+  gap: 40px;
+  margin-left: -33em;
+}
+
+.btn {
+  padding: 15px 23px;
+  border-radius: 5.65px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #96c0ff 0%, violet 100%);
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease-in-out;
+  position: relative;
+  bottom: 0.5em;
+}
+.btn:hover {
+  background-position: -100% 0;
+  cursor: pointer;
+}
+/* First Section */
+.home-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../svgs/event11.jpg") no-repeat center fixed;
+  min-height: 40vh;
+  background-size: cover;
+  color: white;
+}
+.home-section h3 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Clash Grotesk";
+  position: relative;
+  top: 1.5em;
+  left: 10%;
+}
+.home-section p {
+  font-size: 18px;
+  font-family: "Clash Grotesk";
+  position: relative;
+  top: 6em;
+  left: 10%;
+  border-bottom: 2px solid white;
+  width: 8.5%;
+}
+/* LEARN MORE */
+.training {
+  display: flex;
+  background-color: rosybrown;
+  gap: 4em;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.training p {
+  width: 40vw;
+  color: #fff;
+  font-size: 22px;
+}
+.training img {
+  width: 450px;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 5%;
+}
+.training-container {
+  padding-left: 10em;
+  color: white;
+}
+.training-container h4 {
+  font-size: 36px;
+  font-family: "Clash Grotesk";
+}
+/* Our Values */
+.our-values {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-values h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.values {
+  display: flex;
+  text-align: center;
+  gap: 2em;
+}
+.values h4 {
+  border: 8px solid pink;
+  border-radius: 50%;
+  padding: 80px;
+  font-size: 30px;
+}
+.values p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* More About Us */
+.more-about-us {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rosybrown;
+  color: #fff;
+}
+.how-we-work {
+  width: 30%;
+}
+.how-we-work h3 {
+  font-size: 35px;
+  margin-bottom: -0.5em;
+}
+.how-we-work p {
+  font-size: 23px;
+}
+.more-container {
+  display: flex;
+}
+.contain1,
+.contain2 {
+  display: flex;
+  flex-direction: column;
+}
+.contain1 p,
+.contain2 p {
+  width: 70%;
+}
+.contain1 h3,
+.contain2 h3 {
+  font-size: 27px;
+}
+.contain1 p,
+.contain2 p {
+  font-size: 18px;
+}
+.contain2 button {
+  background-color: pink;
+  padding: 15px;
+  border: 1px solid pink;
+  cursor: pointer;
+  outline: none;
+  width: 30%;
+  position: relative;
+  top: 2em;
+}
+
+/* Get In Touch */
+.get-in-touch {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../svgs/event1.jpg") no-repeat center fixed;
+  min-height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch h2 {
+  color: #fff;
+  font-size: 40px;
+}
+.get-in-touch button {
+  background-color: pink;
+  padding: 15px;
+  border: 1px solid pink;
+  cursor: pointer;
+  outline: none;
+}
+/* APPLY HERE */
+.apply {
+  display: flex;
+  background-color: #15478c;
+  color: #fff;
+  justify-content: space-around;
+}
+.apply h3 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: -3%;
+}
+.apply p {
+  font-size: 24px;
+  width: 60%;
+}
+.apply button {
+  margin-top: 70%;
+}
+/* INFORMATION */
+.info-container {
+  background-color: #f4f2f2;
+  padding-bottom: 4%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  margin-left: 10%;
+  padding-top: 2%;
+}
+.info-about,
+.info-service,
+.info-training,
+.info-contact {
+  display: flex;
+  flex-direction: column;
+}
+.info-about {
+  width: 10%;
+}
+.info-address {
+  font-size: 18px;
+  color: #15478c;
+  width: 18%;
+}
+.info-address h5 {
+  font-size: 19px;
+  margin-bottom: 2px;
+}
+.info-address a {
+  text-decoration: none;
+}
+.info-address img {
+  width: 75%;
+}
+.info-about,
+.info-service,
+.info-training {
+  gap: 6%;
+}
+.info-about h5,
+.info-service h5,
+.info-training h5 {
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font-size: 17px;
+  color: #15478c;
+}
+.info-training {
+  width: 10%;
+}
+.info-contact h5 {
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #15478c;
+  width: 80%;
+}
+.info-about span,
+.info-service span,
+.info-training span,
+.info-contact {
+  font-size: 18px;
+  color: #15478c;
+}
+.info-contact button {
+  width: 50%;
+}
+.hr {
+  width: 70%;
+  margin-left: 0.1%;
+  color: #15294b;
+}
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #15294b;
+  color: #fff;
+  justify-content: space-around;
+  padding: 2.4%;
+}
+.footer a {
+  color: #fff;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 6%;
+  right: -30%;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+.whatsapp span {
+  color: #268c15;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+.whatsapp img {
+  width: 10%;
+}
+
+@media (min-width: 1370px) {
+  .whatsapp {
+    right: -25%;
+  }
+  /* .home-section h3 {
+    top: 8em;
+  }
+  .home-section p {
+    top: 14em;
+  }
+  .home-section button {
+    top: 23em;
+  } */
+}

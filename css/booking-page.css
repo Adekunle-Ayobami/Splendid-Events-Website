@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  height: 120vh;
+  overflow: hidden;
+  font-family: "Clash Grotesk";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../svgs/splendid5.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.booking-header h3 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  width: 80%;
+  margin-bottom: 1%;
+}
+.booking-form {
+  margin-left: -6.5%;
+}
+.booking-header p {
+  color: #667085;
+  font-size: 18px;
+}
+.booking-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5%;
+}
+.booking-name,
+.booking-email,
+.form-group,
+.booking-message label {
+  font-size: 20px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+}
+.booking-email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5%;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5%;
+}
+.booking-message {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5%;
+}
+
+.booking-name input {
+  padding: 5%;
+  width: 120%;
+  border-radius: 12px;
+  outline: none;
+  border: 1.2px solid #d0d5dd;
+}
+.booking-email input {
+  padding: 5%;
+  width: 120%;
+  border-radius: 12px;
+  outline: none;
+  border: 1.2px solid #d0d5dd;
+}
+.form-group input {
+  padding: 5%;
+  width: 130%;
+  border-radius: 12px;
+  outline: none;
+  border: 1.2px solid #d0d5dd;
+}
+.booking-message textarea {
+  padding: 5%;
+  width: 120%;
+  border-radius: 12px;
+  outline: none;
+  border: 1.2px solid #d0d5dd;
+}
+.booking-policy {
+  margin-bottom: 5%;
+}
+.booking-policy span {
+  color: #fff;
+}
+.booking-policy input {
+  cursor: pointer;
+}
+.booking-form a {
+  text-decoration: none;
+}
+.btn {
+  padding: 10px 23px;
+  width: 14%;
+  border-radius: 5.65px;
+  border: none;
+  color: white;
+  background-color: green;
+  margin-bottom: 15%;
+}
+.btn:hover {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  cursor: pointer;
+}
