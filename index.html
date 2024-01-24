@@ -26,6 +26,7 @@
             <img src="svgs/Splendid Logo-02.jpg" alt="" />
           </div>
         </a>
+        <i class="fa-solid fa-bars fa-lg nav-toggle"></i>
         <div class="nav-items">
           <ul class="nav-ul">
             <a href="./about.html"><li>About</li></a>
@@ -316,6 +317,13 @@
 
         setInterval(setRandomBackground, 2000);
       });
+
+      // JavaScript to toggle the 'active' class on small screens
+      document
+        .querySelector(".nav-toggle")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-items").classList.toggle("active");
+        });
     </script>
   </body>
 </html>
